@@ -71,6 +71,7 @@
         display: inline-block;
         line-height: 3.3vw;
         margin-left: -10vw;
+        height: 0vw;
     }
 
     a:hover {
@@ -131,7 +132,6 @@
     
     .logo1 {
         height: 9.5vw;
-        padding-left: 10.5vw;
         text-align: center;
     }
 
@@ -139,6 +139,7 @@
         width: 32vw;
         height: 8vw;
         padding-top: 1vw;
+        margin-left: 10vw;
     }
 
     .fb1 {
@@ -222,7 +223,7 @@
         background-image: url("../images/food-1.png");
         height: 20vw;
         width: 20vw;
-        margin: 0vw 10vw;
+        margin: -14px 10vw;
         float: left;
         background-size: cover;
         background-position: center;
@@ -232,7 +233,7 @@
         background-image: url("../images/food-2.jpg");
         height: 20vw;
         width: 20vw;
-        margin: 0vw 10vw;
+        margin: -14px 10vw;
         float: left;
         background-size: cover;
         background-position: center;
@@ -242,7 +243,7 @@
         background-image: url("../images/food-3.png");
         height: 20vw;
         width: 20vw;
-        margin: 0vw 10vw;
+        margin: -14px 10vw;
         float: left;
         background-size: cover;
         background-position: center;
@@ -256,11 +257,6 @@
         left: 10vw;
     }
 
-    #food-1 {
-        width: 100%;
-        height: 100%;
-    }
-
     .food2 {
         width: 20%;
         height: 20vw;
@@ -269,22 +265,12 @@
         left: 31.5vw;
     }
 
-    #food-2 {
-        width: 100%;
-        height: 100%;
-    }
-
     .food3 {
         width: 17%;
         height: 20vw;
         position: absolute;
         top: -27.5vw;
         left: 53vw;
-    }
-
-    #food-3 {
-        width: 100%;
-        height: 100%;
     }
 
     .food4 {
@@ -404,7 +390,7 @@
     }
 
     #thumbnail-four {
-        background-image: url(..//images/gp-1.jpg);
+        background-image: url("../images/gp-1.jpg");
         height: 23vw;
         width: 23vw;
         margin: 31vw 10vw;
@@ -416,7 +402,7 @@
     }
 
     #thumbnail-five {
-        background-image: url(../images/gp-2.jpg);
+        background-image: url("../images/gp-2.jpg");
         height: 23vw;
         width: 23vw;
         margin: 31vw 16.3vw;
@@ -428,7 +414,7 @@
     }
 
     #thumbnail-six {
-        background-image: url(../images/gp-3.png);
+        background-image: url("../images/gp-3.png");
         height: 23vw;
         width: 23vw;
         margin: 31vw 22.5vw;
@@ -440,7 +426,7 @@
     }
 
     #thumbnail-seven {
-        background-image: url(../images/gp-4.jpg);
+        background-image: url("../images/gp-4.jpg");
         height: 23vw;
         width: 23vw;
         margin: 58.5vw 10vw;
@@ -452,7 +438,7 @@
     }
 
     #thumbnail-eight {
-        background-image: url(../images/gp-5.jpg);
+        background-image: url("../images/gp-5.jpg");
         height: 23vw;
         width: 23vw;
         margin: 58.5vw 16.3vw;
@@ -464,7 +450,7 @@
     }
 
     #thumbnail-nine {
-        background-image: url(../images/gp-6.jpg);
+        background-image: url("../images/gp-6.jpg");
         height: 23vw;
         width: 23vw;
         margin: 58.5vw 22.5vw;
@@ -476,7 +462,7 @@
     }
 
     #thumbnail-ten {
-        background-image: url(../images/gp-7.jpg);
+        background-image: url("../images/gp-7.jpg");
         height: 23vw;
         width: 23vw;
         margin: 86vw 10vw;
@@ -485,10 +471,11 @@
         background-position: center;
         border: 0.8vw solid white;
         border-radius: 2vw;
+        margin-bottom: 0vw;
     }
 
     #thumbnail-eleven {
-        background-image: url(../images/gp-8.jpg);
+        background-image: url("../images/gp-8.jpg");
         height: 23vw;
         width: 23vw;
         margin: 86vw 16.3vw;
@@ -497,10 +484,11 @@
         background-position: center;
         border: 0.8vw solid white;
         border-radius: 2vw;
+        margin-bottom: 0vw;
     }
 
     #thumbnail-twelve {
-        background-image: url(../images/gp-9.jpg);
+        background-image: url("../images/gp-9.jpg");
         height: 23vw;
         width: 23vw;
         margin: 86vw 22.5vw;
@@ -509,10 +497,11 @@
         background-position: center;
         border: 0.8vw solid white;
         border-radius: 2vw;
+        margin-bottom: 0vw;
     }
 
     #thumbnail-thirteen {
-        background-image: url(../images/gp-10.jpg);
+        background-image: url("../images/gp-10.jpg");
         height: 23vw;
         width: 23vw;
         margin: 113.5vw 10vw;
@@ -521,10 +510,11 @@
         background-position: center;
         border: 0.8vw solid white;
         border-radius: 2vw;
+        margin-bottom: 0vw;
     }
 
     #thumbnail-fourteen {
-        background-image: url(../images/gp-11.jpg);
+        background-image: url("../images/gp-11.jpg");
         height: 23vw;
         width: 23vw;
         margin: 113.5vw 16.3vw;
@@ -533,10 +523,11 @@
         background-position: center;
         border: 0.8vw solid white;
         border-radius: 2vw;
+        margin-bottom: 0vw;
     }
 
     #thumbnail-fifteen {
-        background-image: url(../images/gp-12.jpg);
+        background-image: url("../images/gp-12.jpg");
         height: 23vw;
         width: 23vw;
         margin: 113.5vw 22.5vw;
@@ -545,162 +536,119 @@
         background-position: center;
         border: 0.8vw solid white;
         border-radius: 2vw;
+        margin-bottom: 0vw;
     }
 
     .gp1 {
-        width: 20%;
-        height: 20vw;
+        width: 0%;
+        height: 0vw;
         position: absolute;
         top: -27.5vw;
         left: 10vw;
     }
 
-    #gp-1 {
-        width: 100%;
-        height: 100%;
-    }
-
     .gp2 {
-        width: 20%;
-        height: 20vw;
+        width: 0%;
+        height: 0vw;
         position: absolute;
         top: -27.5vw;
         left: 31.5vw;
     }
 
-    #gp-2 {
-        width: 100%;
-        height: 100%;
-    }
-
     .gp3 {
-        width: 17%;
-        height: 20vw;
+        width: 0%;
+        height: 0vw;
         position: absolute;
         top: -27.5vw;
         left: 53vw;
     }
 
     #gp-3 {
-        width: 100%;
-        height: 100%;
+        width: 10%;
     }
 
     .gp4 {
-        width: 20%;
-        height: 20vw;
+        width: 0%;
+        height: 0vw;
         position: absolute;
         top: -27.5vw;
         left: 10vw;
     }
 
-    #gp-4 {
-        width: 100%;
-        height: 100%;
-    }
-
     .gp5 {
-        width: 20%;
-        height: 20vw;
+        width: 0%;
+        height: 0vw;
         position: absolute;
         top: -27.5vw;
         left: 31.5vw;
     }
 
-    #gp-5 {
-        width: 100%;
-        height: 100%;
-    }
-
     .gp6 {
-        width: 17%;
-        height: 20vw;
+        width: 0%;
+        height: 0vw;
         position: absolute;
         top: -27.5vw;
         left: 53vw;
     }
 
     #gp-6 {
-        width: 100%;
-        height: 100%;
+        width: 10%;
     }
 
     .gp7 {
-        width: 20%;
-        height: 20vw;
+        width: 0%;
+        height: 0vw;
         position: absolute;
         top: -27.5vw;
         left: 10vw;
     }
 
-    #gp-7 {
-        width: 100%;
-        height: 100%;
-    }
-
     .gp8 {
-        width: 20%;
-        height: 20vw;
+        width: 0%;
+        height: 0vw;
         position: absolute;
         top: -27.5vw;
         left: 31.5vw;
     }
 
-    #gp-8 {
-        width: 100%;
-        height: 100%;
-    }
-
     .gp9 {
-        width: 17%;
-        height: 20vw;
+        width: 0%;
+        height: 0vw;
         position: absolute;
         top: -27.5vw;
         left: 53vw;
     }
 
     #gp-9 {
-        width: 100%;
-        height: 100%;
+        width: 10%;
     }
 
     .gp10 {
-        width: 20%;
-        height: 20vw;
+        width: 0%;
+        height: 0vw;
         position: absolute;
         top: -27.5vw;
         left: 10vw;
     }
 
-    #gp-10 {
-        width: 100%;
-        height: 100%;
-    }
-
     .gp11 {
-        width: 20%;
-        height: 20vw;
+        width: 0%;
+        height: 0vw;
         position: absolute;
         top: -27.5vw;
         left: 31.5vw;
     }
 
-    #gp-11 {
-        width: 100%;
-        height: 100%;
-    }
-
     .gp12 {
-        width: 17%;
-        height: 20vw;
+        width: 0%;
+        height: 0vw;
         position: absolute;
         top: -27.5vw;
         left: 53vw;
     }
 
     #gp-12 {
-        width: 100%;
-        height: 100%;
+        width: 10%;
     }
 
     footer {
